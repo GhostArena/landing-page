@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+/* Container */
+.head-container {
+  padding: 0 20%;
+  background-color: #1f2937;
+}
+
+/* Navbar */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.header .header-logo {
+  color: white;
+}
+
+.header .header-nav {
+  display: flex;
+  gap: 2rem;
+  text-decoration: none;
+}
+
+.header .header-nav .header-navlink {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex: 1;
+  gap: 2;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 100%;
+  height: 30vh;
+  padding-bottom: 6rem;
+  /* background-color: aqua; */
+  /* padding: 3% 20%; */
+}
+
+.hero .hero-info {
+  width: 100%;
+  margin-bottom: 1.8rem;
+  /* background-color: aqua; */
+  /* margin-right: 2rem; */
+}
+.hero .hero-text-cta {
+  width: 100%;
+  padding: 2rem;
+  /* background-color: blueviolet; */
+}
+
+.hero .hero-text {
+  /* margin-bottom: 1rem; */
+  font-size: 48px;
+  color: white;
+  font-weight: bolder;
+}
+
+.hero .hero-subtext {
+  /* margin-bottom: 1rem; */
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.hero .hero-image {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+}
+
+.hero .hero-image > img {
+  height: auto;
+  width: 100%;
+}
+
+.hero .hero-cta {
+  padding: 1rem 2rem;
+  background-color: #3882f6;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+}
